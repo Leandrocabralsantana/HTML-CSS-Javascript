@@ -7,6 +7,7 @@
         <meta name="description" content="First index.html page">
         <meta name="author" content="Leandro Cabral Santana">
         <base href="index.html" target="_blank">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- Headings -->
@@ -17,26 +18,38 @@
             The time is yours, but we help it
         </h2> 
         <!-- Menu buttons-->
-        <nav>
+        <nav id="#menubuttons">
             <h3>
                 <ul>
                     <li>
-                        <a href="#ourjob">Our work</a>
+                        <a href="#ourjob" class="menubuttons">
+                            Our work
+                        </a>
                     </li>
                     <li>
-                        <a href="#tools">Tools</a>
+                        <a href="#tools"class="menubuttons">
+                            Tools
+                        </a>
                     </li>
                     <li>
-                        <a href="#aboutus">About us</a>
+                        <a href="#aboutus"class="menubuttons">
+                            About us
+                        </a>
                     </li>
                     <li>
-                        <a href="#contactus">Contact Us</a>
+                        <a href="#contactus"class="menubuttons">
+                            Contact Us
+                        </a>
                     </li>
                     <li>
-                        <a href="#support">Support</a>
+                        <a href="#support"class="menubuttons">
+                            Support
+                        </a>
                     </li>
                     <li>
-                        <a href="#ourproducts">Our products</a>
+                        <a href="#ourproducts"class="menubuttons">
+                            Our products
+                        </a>
                     </li>
                 </ul>
             </h3>
@@ -50,20 +63,27 @@
         <aside>
             <nav>
                 <h4>
-                    <a href="#index">Home</a>
+                    <a href="#index"class="sidebar">
+                        Home
+                    </a>
                 </h4> 
                 <h4>
-                    <a href="#login">Log In</a>
+                    <a href="#login"class="sidebar">
+                        Log In
+                    </a>
                 </h4> 
                 <h4>
-                    <a href="#signup">Sign Up</a>
+                    <a href="#signup"class="sidebar">
+                        Sign Up
+                    </a>
                 <h4>
-                    <a href="#contactus">Contact us</a>
-                </h4> 
+                    <a href="#contactus"class="sidebar">
+                        Contact us
+                    </a>
                 </h4>
             </nav> 
         </aside>
-    <nav id="ourjob">
+    <nav id="ourjob"class="content">
                 <h2>
                     Our job    
                 </h2>
@@ -76,7 +96,7 @@
                         </p>
                 </article>
     </nav>
-     <nav id="tools">
+     <nav id="tools"class="content">
                 Functionalities
                 <article>
                     <h4>
@@ -97,10 +117,7 @@
                     </h4>
                 </article>
     </nav>
-        <section>
-            Choose Trackgenix🕗
-        </section>
-            <article>
+        <article id="#advantages"class="content">
                 <h5>
                     Why you should use Trackgenix🕗?
                 </h5>
@@ -119,28 +136,45 @@
                         </li>
                     </ul>
             </article>
-                <!--Contact Me Buttons-->
-    <section id="contactus">
-        <h5 id="CM">Contact me</h5>
+    </section>
+
+    <section id="contactus"class="content">
+        <h5 id="CM">
+            Contact me
+        </h5>
             <form>
                <div>
-                    <label>Name</label> 
-                    <input type="text" name="first-name">
+                    <label>
+                        Name
+                    </label> 
+                    <input type="text" name="first-name"class="client-info">
                 </div>
                 <div>
-                    <label>What's your cellphone number?</label> 
-                    <input type="text" name="cellphone">
+                    <label>
+                        What's your cellphone number?
+                    </label> 
+                    <input type="text" name="cellphone"class="client-info">
                 </div>  
                 <div>
-                    <label>Email</label> 
-                <input type="email" name="Email">
+                    <label>
+                        Email
+                    </label> 
+                <input type="email" name="Email"class="client-info">
                 </div>
                 <div>
-                    <label>Contact Area</label>
-                    <select name="select">
-                        <option value="value1">Recursos Humanos</option>
-                        <option value="value2" selected>Atencion al publico</option>
-                        <option value="value3">Clientes</option>
+                    <label>
+                        Contact Area
+                    </label>
+                    <select name="select"class="client-info">
+                        <option value="value1">
+                            Recursos Humanos
+                        </option>
+                        <option value="value2" selected>
+                            Atencion al publico
+                        </option>
+                        <option value="value3">
+                            Clientes
+                        </option>
                     </select>
                 </div>
                 <div>
@@ -153,7 +187,8 @@
                         Send
                     </button>
                 </div>
-    <section id="aboutus">
+    </section>
+    <section id="aboutus"class="content">
         <section>
             <h3>
                 Who we are
@@ -164,7 +199,8 @@
                 We are a company developing apps for everyday. Founded in 2022.
                 </p>
             </article>
-    <section id="ourproducts">
+    </section>
+    <section id="ourproducts"class="content">
             <h4>
                 Site map
             </h4>
@@ -184,9 +220,11 @@
                         Extras
                     </li>
                 </ol>
+    </section>
             </article>
-            <article>
-                Company
+    <section>
+        <article>
+            Company
                 <ol>
                     <li>
                         About us
@@ -201,8 +239,9 @@
                         Blog
                     </li>
                 </ol>
-            </article>
-    <section id="support">
+        </article>
+    </section>
+    <section id="support"class="content">
         <article>
             Support
             <ol>
@@ -220,9 +259,10 @@
                 </li>
             </ol>
         </article>
+    </section>
     </form>
         <h6>
-            <footer>
+            <footer class="footer">
                 Rosario, Argentina
                 Copyright © 2022 Trackgenix S.A. All rights reserved
             </footer>
