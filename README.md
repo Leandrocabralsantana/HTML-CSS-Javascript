@@ -9,5 +9,8 @@ Trackgenix is a software development company actually working in multiple countr
 ## Contributing
 If you wanna contribute with us, we are launching beta testing everyday in [beta-testing] (https://trackgenix.org/beta-testing/)
 
+v2.0 05-04-2022
+''Changes in CSS and HTML.
+''Changes in images and logo.
 Copyright © 2022 Trackgenix S.A. 
 All rights reserved
