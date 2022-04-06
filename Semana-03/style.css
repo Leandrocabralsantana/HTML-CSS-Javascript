@@ -1,39 +1,48 @@
 * {
     font-family: 'Roboto', sans-serif;
         text-decoration: none;
-  }
-  body {
+}
+
+body {
     width: 90%;
-   margin: auto;
+    margin: auto;
    font-family: 'Roboto', sans-serif;
    float: right;
+   text-align: justify;
+   font-size: medium;
   }
 
-  h1 {
+h1 {
       font-size: 28px;
       position: absolute;
       top: auto;
-  }
+      color: white;
+}
 h2 {
     position: absolute;
     top: 50px;
-text-align: center;
-float: left;
-  }
+    text-align: center;
+    float: left;
+    color: #373867;
+}
   
-  h3{
-      text-align: center;
-      float: center;
-      
-  }
+h3{
+    text-align: center;
+    float: center;  
+}
 .menu{
     text-transform: uppercase;  
-    background-color: #AACE9B;
-  }
+    background: linear-gradient(#529E7C, #ffffff);    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 #menubuttons {
 	font-family: sans-serif;
-    height: 70px;
+    height: 90px;
     width: 100%;
     position: static;
     top: 0px;
@@ -58,6 +67,37 @@ float: left;
 	color:#fff;
 }
 
+nav {
+    height: 50%;
+    width: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    padding: auto;
+    margin: auto;
+    text-transform: uppercase;  
+    background-color: #AACE9B;
+    left: 1px;
+    top: 0px;
+}
+
+nav a {
+padding:3px;
+text-decoration:none;
+background: linear-gradient(#529E7C, #ffffff);    border: none;
+color:rgb(0, 0, 0);
+display:block;
+padding:3px;
+text-decoration:none;
+color:rgb(0, 0, 0);
+}
+
+nav a:hover {
+background-color:#4CAF50;
+color:rgb(255, 255, 255);
+}
+
 .content {
     background-color: #AACE9B;
     border-style: hidden;
@@ -65,10 +105,10 @@ float: left;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-text-align: center;
-width: 50%;
-padding: 50px;
-float: center;
+    text-align: center;
+    width: 50%;
+    padding: 50px;
+    float: center;
 }
 
 #ourjob {
@@ -77,49 +117,30 @@ float: center;
 }
 #tools li {
     background-image: linear-gradient(to right, #539E7D , white);
+    float:center ;
+    width: 50px;
+    height: 200px;
+    padding: auto;
+    margin: 0 10px; display:inline-table;
+    margin: none;
+    text-decoration: dashed;
+    text-align: center;
+}
 
+.sitemap ol {
+    background-image: linear-gradient(to right, #539E7D , white);
+    width: 70px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    float: none;
 }
 
 .footer {
-font-family: Verdana, Geneva, Tahoma, sans-serif;   
-  }
-
-.menu {
-    background: linear-gradient(#529E7C, #ffffff);    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    padding-top: 100px;
+    margin-bottom: 50px;
+    position: absolute;
     display: inline-block;
-    font-size: 16px;
-}
-
-nav {
-        height: 50%;
-        width: 10%;
-        position: fixed;
-        left: 0;
-        top: 0;
-        padding-top: 40px;
-        padding: auto;
-        margin: auto;
-        text-transform: uppercase;  
-        background-color: #AACE9B;
-        left: 1px;
-        top: 0px;
-}
-
-nav a {
-	padding:3px;
-	text-decoration:none;
-    background: linear-gradient(#529E7C, #ffffff);    border: none;
-	color:rgb(0, 0, 0);
-    display:block;
-	padding:3px;
-	text-decoration:none;
-	color:rgb(0, 0, 0);
-}
-
-nav a:hover {
-	background-color:#4CAF50;
-	color:rgb(255, 255, 255);
 }
