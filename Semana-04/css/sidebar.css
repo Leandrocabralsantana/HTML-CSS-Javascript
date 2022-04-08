@@ -1,0 +1,22 @@
+nav {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    margin-right: 150px;
+    padding-top: 0px;
+    text-transform: uppercase;  
+    background: linear-gradient(to bottom,  #49A37B,  #add6c4);
+}
+
+nav a{
+    padding:3px;
+    text-decoration:none;
+    background: linear-gradient(#529E7C, #ffffff);
+    color:rgb(0, 0, 0);
+    display:block;
+}
+
+nav a:hover {
+    background-color:#4CAF50;
+    color:rgb(255, 255, 255);
+}

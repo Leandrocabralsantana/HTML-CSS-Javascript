@@ -50,56 +50,6 @@ h3{
     font-size: 20px;
 }
 
-#menubuttons {
-	font-family: sans-serif;
-    height: 90px;
-    width: 100%;
-    position: static;
-    left: 0px;
-    padding-top: 10px;
-    padding-left: 200px;
-}
-#menubuttons li {
-	display:block;
-	width:140px;
-	float:left;
-	margin-left:2px;
-}
-
-#menubuttons a {
-	display:block;
-	padding:3px;
-	text-decoration:none;
-	color:rgb(255, 255, 255);
-}
-
-#menubuttons     a:hover {
-	color:#fff;
-}
-
-nav {
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    margin-right: 150px;
-    padding-top: 0px;
-    text-transform: uppercase;  
-    background: linear-gradient(to bottom,  #49A37B,  #add6c4);
-}
-
-nav a{
-    padding:3px;
-    text-decoration:none;
-    background: linear-gradient(#529E7C, #ffffff);
-    color:rgb(0, 0, 0);
-    display:block;
-}
-
-nav a:hover {
-    background-color:#4CAF50;
-    color:rgb(255, 255, 255);
-}
-
 .content {
     background-color: #AACE9B;
     width: 50%;
@@ -139,12 +89,4 @@ nav a:hover {
     text-align: center;
     position: relative;
     float: none;
-}
-
-.footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-    padding-top: 100px;
-    margin-bottom: 50px;
-    position: absolute;
-    display: inline-block;
 }
