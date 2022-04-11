@@ -1,45 +1,22 @@
-
-h1 {
-    font-size: 28px;
-    position: absolute;
-    top: auto;
-    left: 0px;
-    color: white;
-    font-weight: 900;
-    font-size: 28px;
-    text-transform: uppercase;
-}
-h2 {
-    position: absolute;
-    top: 50px;
-    text-align: center;
-    float: left;
-    color: #373867;
-}
-
-#menubuttons {
+#menu-buttons {
 	font-family: sans-serif;
     height: 90px;
     width: 100%;
-    position: static;
-    left: 0px;
-    padding-top: 10px;
-    padding-left: 200px;
+		display: flex;
+		flex-direction: row;
+		flex-basis: auto;
 }
-#menubuttons li {
-	display:block;
+#menu-buttons li {
 	width:140px;
 	float:left;
-	margin-left:2px;
 }
 
-#menubuttons a {
-	display:block;
+#menu-buttons a {
 	padding:3px;
 	text-decoration:none;
 	color:rgb(255, 255, 255);
 }
 
-#menubuttons     a:hover {
+#menu-buttons	a:hover {
 	color:#fff;
 }

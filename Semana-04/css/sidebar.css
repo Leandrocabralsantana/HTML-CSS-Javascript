@@ -1,4 +1,4 @@
-nav {
+aside {
     position: absolute;
     width: 10%;
     height: 10%;
@@ -8,7 +8,7 @@ nav {
     background: linear-gradient(to bottom,  #49A37B,  #add6c4);
 }
 
-nav a{
+aside a{
     padding:3px;
     text-decoration:none;
     background: linear-gradient(#529E7C, #ffffff);
@@ -16,7 +16,7 @@ nav a{
     display:block;
 }
 
-nav a:hover {
+aside a:hover {
     background-color:#4CAF50;
     color:rgb(255, 255, 255);
 }
