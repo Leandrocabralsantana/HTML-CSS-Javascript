@@ -1,22 +1,24 @@
-#menu-buttons {
-	font-family: sans-serif;
-    height: 90px;
-    width: 100%;
-		display: flex;
-		flex-direction: row;
-		flex-basis: auto;
+
+header {
+	display:flex;
+		text-transform: uppercase;  
+		background: linear-gradient(#529E7C, #ffffff);    border: none;
+		font-size: 20px;
+		justify-content: space-around;
 }
-#menu-buttons li {
-	width:140px;
-	float:left;
+ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
 }
 
-#menu-buttons a {
-	padding:3px;
-	text-decoration:none;
-	color:rgb(255, 255, 255);
+
+h1, h2{
+	display: flex;
+	flex-direction: column;
 }
 
-#menu-buttons	a:hover {
-	color:#fff;
+.menu-buttons
+{
+	color: #529E7C;
 }

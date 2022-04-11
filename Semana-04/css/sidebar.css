@@ -1,5 +1,5 @@
 aside {
-    position: absolute;
+    position: flex;
     width: 10%;
     height: 10%;
     margin-right: 150px;

@@ -15,19 +15,11 @@ body {
 
 h1 {
     font-size: 28px;
-    position: absolute;
-    top: auto;
-    left: 0px;
     color: white;
     font-weight: 900;
-    font-size: 28px;
     text-transform: uppercase;
 }
 h2 {
-    position: absolute;
-    top: 50px;
-    text-align: center;
-    float: left;
     color: #373867;
 }
   
@@ -40,13 +32,4 @@ h3{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-}
-.menu{
-    text-transform: uppercase;  
-    background: linear-gradient(#529E7C, #ffffff);    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
 }
