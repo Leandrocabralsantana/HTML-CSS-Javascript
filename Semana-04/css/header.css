@@ -1,47 +1,57 @@
-	h1, h2 {
+h1 {
+	font-size: 110%;
+}
+h2 {
+	font-size: 80%;
 		margin-bottom: 15px;
 		display: flex;
 	}
-#logo {
-	font-size: 100%;
-}
-#subtitle {
-	font-size: 70%;
-}
-.logos {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+
+header {
+	height: 110%;
+	width: 100%
 }
 
-.principal{
+nav.principal{
 	height: 100%;
-	margin: 0 auto;
-	padding: 0 10px;
+	margin: 0 0;
+	padding: 0 0px;
 	border: none;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;	
-}	
-.principal:first-child {
-	align-content: center;
-}
-nav {
 	background: linear-gradient(#529E7C, #ffffff);
+	display: flex;
+	justify-content: space-between;
+	align-items: end;	
+	flex-direction:row;
+}	
+
+div.logos{
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+display: flex;
+justify-content: flex-start;
+align-items: initial;
 }
-header a{
+
+
+
+.menu-header a{
 	color: white;
-	font-size:60%;
 	font-weight: bold;
 }
-header ul {
+.menu-header ul {
 display: flex;
-	}
+font-size:100%;
 
-header ul li {
+	}
+.menu-header ul li {
 	margin-left: 20px;
 }
+.menu-buttons {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
 
-header .principal {
-display: flex;
 }
