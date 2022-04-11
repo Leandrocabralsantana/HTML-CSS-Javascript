@@ -8,6 +8,11 @@
 #subtitle {
 	font-size: 70%;
 }
+.logos {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
 
 .principal{
 	height: 100%;
@@ -16,7 +21,7 @@
 	border: none;
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-start;
+	align-items: center;	
 }	
 .principal:first-child {
 	align-content: center;
