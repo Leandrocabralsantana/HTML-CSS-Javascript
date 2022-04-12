@@ -33,7 +33,7 @@ nav a {
 		font-size: 100%;
 }
 nav ul li {
-	justify-content: space-evenly;
+	justify-content: space-around;
 	list-style: none;
-	margin-left: 40px;
+	margin-left: %;
 }

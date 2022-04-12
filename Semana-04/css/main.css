@@ -12,6 +12,7 @@
     text-align: center;
 }
 .ourjob img{
+    align-self: end;
 }
 .functions {
     background: #AACE9B;
@@ -102,7 +103,4 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-
 }
