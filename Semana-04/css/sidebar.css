@@ -10,7 +10,6 @@ aside {
     font-size: 70%;
     background: linear-gradient(to bottom,  #49A37B,  #add6c4);
 }
-
 aside a{
     padding:3px;
     text-decoration:none;
@@ -18,7 +17,6 @@ aside a{
     color:rgb(0, 0, 0);
     display:block;
 }
-
 aside a:hover {
     background-color:#4CAF50;
     color:rgb(255, 255, 255);
