@@ -1,57 +1,55 @@
 h1 {
-	font-size: 110%;
+	font-size: 130%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: white;
 }
 h2 {
 	font-size: 80%;
-		margin-bottom: 15px;
-		display: flex;
+	margin-bottom: 15px;
+	color:373867;
 	}
 
 header {
-	height: 110%;
-	width: 100%
+	height: 100%;
+	width: 100%;
+	font-weight: bolder;
 }
 
 nav.principal{
 	height: 100%;
-	margin: 0 0;
-	padding: 0 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	border: none;
-	background: linear-gradient(#529E7C, #ffffff);
-	display: flex;
-	justify-content: space-between;
-	align-items: end;	
-	flex-direction:row;
+	background: linear-gradient(#529E7C, #8a8a8a);
 }	
 
-div.logos{
+.logos{
 	height: 100%;
 	width: 100%;
-	flex-direction: column;
-display: flex;
-justify-content: flex-start;
-align-items: initial;
-}
-
-
-
-.menu-header a{
-	color: white;
-	font-weight: bold;
-}
-.menu-header ul {
-display: flex;
-font-size:100%;
-
-	}
-.menu-header ul li {
-	margin-left: 20px;
-}
-.menu-buttons {
 	display: flex;
-	flex-direction: row;
-	width: 100%;
-	height: 100%;
-	font-size: 40px;
+	flex-direction: column;
+align-items: start;
+position: relative;
+}
+
+ .menu-buttons {
+	 text-transform: uppercase;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-evenly;
+	 position: relative;
+}
+
+nav a {
+		color: white;
+		font-weight: bold;
+		font-size: 100%;
+}
+
+nav ul li {
+	justify-content: space-evenly;
+	list-style: none;
+	margin-left: 40px;
 
 }

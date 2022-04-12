@@ -1,7 +1,9 @@
 aside {
+    display: flex;
     position: flex;
-    width: 10%;
-    height: 10%;
+    flex-direction: column;
+    width: 100px;
+    height: 100%;
     margin-right: 10px;
     padding-top: 0px;
     text-transform: uppercase;  

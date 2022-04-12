@@ -10,6 +10,8 @@ justify-content: space-around;
 }
 
 .ourjob {
+    height: 100%;
+    width: 50%%;
     background: #AACE9B;
     display: flex;
     flex-direction: column;
@@ -17,6 +19,7 @@ justify-content: space-around;
     margin: 0 10%;
     padding: 5%;
     align-items: center;
+    text-align: center;
 }
 .functions {
     background: #AACE9B;
@@ -56,12 +59,13 @@ justify-content: space-around;
 .contactus {
     background: #AACE9B;
     display: flex;
+    flex-direction: column;
     border-radius: 10px;
     margin: 10%;
     padding: 5%;
-    flex-direction: column;
     align-items: center;    
-    justify-content: center;
+    justify-content: start;
+    text-align: justify;
 }
 
 .features {
@@ -72,5 +76,14 @@ justify-content: space-around;
     padding: 5%;
     flex-direction: column;
     justify-content: start;
-    align-items: center
+    align-items: center;
+}
+.features ul li {
+    display: flex;
+    flex-direction: column;
+
+}
+div {
+    display: flex;
+    flex-direction: column;
 }
