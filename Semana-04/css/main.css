@@ -1,54 +1,58 @@
-h3 {
-    font-size: 20px;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-}
-.functions {
-    display: flex;
-    justify-content: space-around;
-}
+
 .ourjob {
     height: 100%;
     width: 50%%;
     background: #AACE9B;
     display: flex;
     flex-direction: column;
-    border-radius: 0px;
+    border-radius: 20px;
     margin: 0 10%;
     padding: 5%;
     align-items: center;
     text-align: center;
 }
+.ourjob img{
+}
 .functions {
     background: #AACE9B;
     display: flex;
-    border-radius: 10px;
-    margin: 10%;
-    padding: 5%;
+    border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    width: 70%%;
+    margin: 5% 10%;
+    padding: 5%;
+    align-items: center;
+    text-align: center;
 }
-.benefits {
+.benefits{
+    height: 100%;
+    width: 70%%;
+    margin: 5% 10%;
+    padding: 5%;
     background: #AACE9B;
     display: flex;
-    border-radius: 10px;
-    margin: 10%;
-    padding: 5%;
     flex-direction: column;
-    align-items: center
+    justify-self: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.benefits ul{
+    list-style:lower-alpha;
+    text-align: center;
 }
 .aboutus {
     background: #AACE9B;
-    display: flex;
-    border-radius: 10px;
-    margin: 10%;
+    border-radius: 20px;
+    height: 100%;
+    width: 70%%;
+    margin: 5% 10%;
     padding: 5%;
 }
 .aboutus {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 .contactus {
@@ -56,27 +60,49 @@ h3 {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    margin: 10%;
+    height: 100%;
+    width: 70%%;
+    margin: 5% 10%;
     padding: 5%;
     align-items: center;    
     justify-content: start;
     text-align: justify;
 }
-.features {
+.sitemap {
     background: #AACE9B;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border-radius: 10px;
     margin: 10%;
     padding: 5%;
-    flex-direction: column;
-    justify-content: start;
     align-items: center;
 }
-.features ul li {
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sitemap div{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    display: flex;
+    flex-direction:column;
+    font-weight: bold;}
+.sitemap ol{
+    list-style: lower-latin;
     display: flex;
     flex-direction: column;
 }
-div {
+
+.sitemap {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+
 }
