@@ -23,7 +23,7 @@ v2.0 - Week 3
 
 v3.0 - Week 4
 ''Changes in CSS files and added Flexbox in the design.
-''Now you can connect in here: "https://leandrocabralsantana.github.io/BaSP-M2022-Etapa-1/Semana-04/"
+''Now you can connect in [here](https://leandrocabralsantana.github.io/BaSP-M2022-Etapa-1/Semana-04/)
 
 Copyright © 2022 Trackgenix S.A. 
 All rights reserved
