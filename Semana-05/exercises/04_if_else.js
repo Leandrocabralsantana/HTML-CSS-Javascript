@@ -15,5 +15,5 @@ console.log(edad
 “Adulto” entre 31 y 60 años;
 “Adulto mayor” entre 61 y 75 años;
 “Anciano” si es mayor a 75 años.*/
-
 console.log('Ejercicio-4-B');
+var age = 0,100 
