@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+  }
+  h3 {
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }

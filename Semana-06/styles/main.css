@@ -1,0 +1,265 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.job-description {
+  display: flex;
+  flex-direction: column;
+  background-color: #AACE9B;
+  text-align: center;
+}
+.main-subtitle {
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+.job-description p{
+  width: auto;
+  margin: auto;
+  font-size: 16px;
+}
+.secondary-logo {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+}
+.functions-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.functions-buttons button{
+  width: 50%;
+  height: 50px;
+  margin: 10px;
+  background: linear-gradient(to bottom,  #49A37B,  #add6c4);
+  border: none;
+  font-size: 16px;
+  color:#FFF;
+  text-transform: uppercase;
+}
+.green-background {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #AACE9B;
+}
+.green-background-paragraph {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.reasons-unordered {
+  padding-top: 10px;
+  padding-left: 30px;
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.form-title {
+  padding: 20px;
+  background-color: #FFF;
+  border: 2px solid black;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #373867;
+}
+.form-body {
+  background-color: #AACE9B;
+}
+.form-body input[type=text] {
+  width: 98%;
+  height: 50px;
+  background-color: #AACE9B;
+  font-size: 16px;
+}
+.contact-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 98%;
+  height: 50px;
+  padding-left: 5px;
+  background-color: #AACE9B;
+  font-size: 15px;
+  line-height: 30px;
+}
+.contact-area .label-title {
+  width: 100%;
+}
+.form-body input[type=radio] {
+  width: 5%;
+  height: 15px;
+  margin: auto;
+}
+.who-we-are-paragraph {
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+}
+.form-body textarea {
+  width: 99%;
+  height: 100px;
+  margin-top: 20px;
+  background-color:#AACE9B;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+.form-button {
+  width: 100%;
+  background-color:#AACE9B;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.site-map-container {
+  display: flex;
+  flex-direction: column;
+}
+.products {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  background-color:#AACE9B;
+  rgba(170, 206, 155, 0.541667) 45.83%, rgba(170, 206, 155, 0.708333) 95.31%, rgba(170, 206, 155, 0) 100%);
+  text-align: center;
+  list-style-position: inside;
+}
+.company {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  background-color:#AACE9B;
+  text-align: center;
+  list-style-position: inside;
+}
+.support {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  background-color:#AACE9B;
+  text-align: center;
+  list-style-position: inside;
+}
+#site-map div li {
+  list-style-type: numbers;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 22px;
+  }
+  .wrapper{
+    position: relative;
+    margin-left: 150px;
+    top: 120px;
+  }
+  .column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .functions-buttons button {
+    width: 40%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .functions-buttons .column {
+    display: flex;
+    justify-content: space-around;
+  }
+  .green-background-paragraph {
+    font-size: 20px;
+  }
+  .reasons-unordered {
+    font-size: 20px;
+  }
+  .form-title {
+    font-size: 18px;
+  }
+  .who-we-are-paragraph {
+    font-size: 18px;
+  }
+  .site-map-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .products, .company, .support {
+    width: 25%;
+    margin: 10px;
+  }
+  #site-map div li {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h3 {
+    font-size: 24px;
+  }
+  .job-description {
+    width: 50%;
+    margin: auto;
+  }
+  .functions-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .functions-buttons button {
+    width: 200px;
+    height: 200px;
+    font-size: 22px;
+  }
+  .green-background {
+    width: 60%;
+    margin: auto;
+  }
+  .green-background-paragraph {
+    font-size: 24px;
+  }
+  .reasons-unordered {
+    font-size: 22px;
+  }
+  .form-title {
+    font-size: 25px;
+  }
+  .form-body input[type=text] {
+    width: 98%;
+    height: 50px;
+    background-color:#AACE9B;
+    font-size: 20px;
+  }
+  .contact-area {
+    font-size: 20px;
+  }
+  .form-body textarea {
+    font-size: 20px;
+  }
+  .form-button {
+    font-size: 20px;
+  }
+  .who-we-are-paragraph {
+    font-size: 20px;
+  }
+  #site-map div li {
+    font-size: 20px;
+  }
