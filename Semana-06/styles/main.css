@@ -9,16 +9,6 @@ form {
   background-color: #AACE9B;
   text-align: center;
 }
-.main-subtitle {
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #000;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-align: center;
-}
 .job-description p{
   width: auto;
   margin: auto;
@@ -137,7 +127,6 @@ form {
   margin: auto;
   padding: 50px;
   background-color:#AACE9B;
-  rgba(170, 206, 155, 0.541667) 45.83%, rgba(170, 206, 155, 0.708333) 95.31%, rgba(170, 206, 155, 0) 100%);
   text-align: center;
   list-style-position: inside;
 }

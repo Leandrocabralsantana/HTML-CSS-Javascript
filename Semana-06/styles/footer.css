@@ -1,7 +1,8 @@
 footer {
     font-size: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
+    position: relative;
     align-items: center;
     text-align: center;
 }
